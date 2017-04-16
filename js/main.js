@@ -8,6 +8,7 @@ $(document).ready(function () {
     var tempF = "";
     var city = "";
     var degC = true
+    var weatherIcon = ""
 
     //  Convert tempF - tempC
     $("#units").on("click", function () {
@@ -45,7 +46,7 @@ $(document).ready(function () {
                 $("#temp").html(tempC + "<br>");
                 $("#Wea").html("Outlook: " + weather + "<br> <img src = 'http://openweathermap.org/img/w/" + icon + ".png'>");
                 //create the information that will be shown inside the divs
-                
+
             },
             error: function (err) {
                 alert("opsie daisies")
