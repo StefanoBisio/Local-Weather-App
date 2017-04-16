@@ -24,8 +24,13 @@ body {
     ;
 }
 
+footer,
+footer a {
+    color: white;
+}
 
-.btn.outline {
-	background: none;
-    padding: 12px 22px;}
-
+.wrapper {
+    border: solid white 4px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}

@@ -45,11 +45,7 @@ $(document).ready(function () {
                 $("#temp").html(tempC + "<br>");
                 $("#Wea").html("Outlook: " + weather + "<br> <img src = 'http://openweathermap.org/img/w/" + icon + ".png'>");
                 //create the information that will be shown inside the divs
-                //alert(wCode);
-                selectBg(wCode);
-                document.body.style.backgroundImage = weatherPic;
-                //alert(weatherPic)
-                //apply the background image 
+                
             },
             error: function (err) {
                 alert("opsie daisies")
